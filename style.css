@@ -1,0 +1,251 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(178, 179, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.container, #resumePage {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    background-color: rgb(253, 245, 132);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    text-align: center;
+    text-decoration: solid underline;
+    color: rgb(24, 22, 22);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    background-color: rgb(210, 209, 128);
+}
+
+
+
+
+fieldset {
+    border: 2px solid rgb(9, 2, 53);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(229, 228, 131);
+}
+
+
+
+
+
+
+
+
+
+
+legend {
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+    font-style: italic;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Adjusted text shadow */
+}
+
+
+
+
+
+
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(173, 29, 7);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+textarea, input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+    border: 1px solid rgb(180, 220, 61);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(203, 210, 164);
+    color: black;
+    font-size: 15px;
+    border: 1px solid rgb(115, 116, 113);
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: rgba(3, 23, 63, 0.65);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profilepicture {
+    display: block;
+    margin: auto;
+    border: 3px solid rgb(224, 245, 147);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+.profilepicture:hover {
+    transform: scale(1.05);  /* Slight zoom effect */
+}
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+#resumePage img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(166, 178, 89);
+}
+
+#resumePage h1 {
+    text-align: center;
+    margin-bottom: 20px;  
+}
+
+
+
+
+
+#resumePage h2 {
+    color: rgb(3, 3, 102);
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: solid underline;
+}
+
+
+
+
+
+
+
+#resumePage {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    background-color: rgb(253, 245, 132);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+    .container, #resumePage {
+        width: 100%;
+        padding: 15px;
+    }
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+    form {
+        padding: 20px;
+    }
+}
+

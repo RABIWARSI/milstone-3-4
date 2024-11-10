@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUSUME BUILDER</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+        
+
+
+
+                <div class="container">
+                    <h2>DYNAMIC RESUME BUILDER BY RABISH FAROOQ</h2>
+                    <form id="resumeForm">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+                            <label for="photo">Upload Picture</label>
+                            <input type="file" id="photo" name="photo" accept="image/*" required>
+<br><br>
+<br>
+
+
+
+        
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your Full Name" required>
+        
+
+     <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <br>
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Your Mobile Number" required>
+        <br>
+       
+    </fieldset>
+
+    
+        <!-- EDUCATION -->
+  
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" placeholder="Your Education Details" rows="5" required></textarea>
+        </fieldset>
+
+    </fieldset>
+
+    <!-- Experience  -->
+
+    <fieldset>
+        <legend>Work Experience</legend>
+        <label for="experience">Details:</label>
+        <textarea id="experience" name="experience" placeholder="Your Work Experience" rows="5" required></textarea>
+    </fieldset>
+
+    <br>
+    
+
+
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">List of Skills:</label>
+        <textarea id="skills" name="skills" placeholder="Your Skills" rows="5" required></textarea>
+    </fieldset>
+   
+       
+    <button type="submit">Generate Resume</button>
+</form>
+</div>
+
+
+
+           <!-- Resume Display Section -->
+    <div id="resumePage" class="resume-page hidden">
+        <div id="resumeContent" class="resume-content">
+            <img id="resumePhoto" class="resume-photo" src="" alt="Profile Photo">
+            <h1 id="resumeName"></h1>
+            <p id="resumeEmail"></p>
+            <p id="resumeMobile"></p>
+
+
+            <h2>Education</h2>
+            <p id="resumeEducation"></p>
+
+            <h2>Work Experience</h2>
+            <p id="resumeExperience"></p>
+
+            <h2>Skills</h2>
+            <p id="resumeSkills"></p>
+        </div>
+
+
+
+  <!-- Action Buttons -->
+  <button id="editButton">Edit</button>
+  <button id="backButton" onclick="window.location.href='index.html'">Back to Form</button>
+  <button id="shareLinkButton">Share Your Resume</button>
+  <button id="downloadPdf">Download Resume</button>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
