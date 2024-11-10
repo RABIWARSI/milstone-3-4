@@ -1,1 +1,1 @@
-# milstone-3-4
+# milstone-3-4 A seamless and interactive web app designed to simplify resume creation. This tool enables users to input their personal details, educational background, work experience, and skills through an intuitive form. It then instantly compiles the data into a polished, professional resume preview. With options to upload a photo, edit content, download the resume as a PDF, or share it effortlessly, this project highlights the power of dynamic web development using HTML, CSS, and JavaScript for real-time content transformation.
